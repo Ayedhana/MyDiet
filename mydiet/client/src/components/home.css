@@ -1,0 +1,68 @@
+
+
+img{
+    width: 100px;
+    height: 250px;
+}
+
+button{
+   width: 20px;
+   padding: 0px;
+}
+.card {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.link{
+    background-color: #800080;
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 750px;
+}
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+    margin-right: 500px;
+    background-color:#800080;;
+  }
+ a:disabled{
+    color: darkgrey;
+ }
+
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 20px;
+  }
+  .card img {
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 40px;
+  }
+}
+.cardDiet{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 100%
+}

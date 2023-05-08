@@ -1,0 +1,50 @@
+.create-diet{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border :solid 1px darkgray;
+    margin-left: 280px;
+    margin-top: 40px;
+    border-radius: 10px;
+    align-items: center;
+    height: 800px;
+   
+
+}
+ h2{
+	color:teal;
+	font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, cursive;
+	font-weight:bold;
+	text-align: center;
+    margin-bottom: 40px;
+}
+.form{
+   
+    border: solid 1px darkgrey;
+    width: 800px;
+    border-radius: 10px;
+   min-height: 600;
+    justify-content: space-around;
+ padding-top:30px ;
+ padding-bottom: 30px;
+ margin: 20px;
+
+
+}
+.inp{
+    
+    width: 500px;
+    height: 50px;
+};
+
+span{
+    padding: 20px;
+    margin: 20px;
+}
+p{
+    color:black;
+    font-size: 20px;
+    
+}
+ 
